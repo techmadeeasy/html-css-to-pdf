@@ -9,7 +9,7 @@
 
 <input type="button" id="create_pdf" value="Generate PDF">
 <form class="form" id="content" style="max-width: none; width: 1005px;">
-    <h3>DEMO</h3>
+    <h3>Table of employees</h3>
     <p style="font-size: large">
         Convert HTML TO PDF:
     </p>
@@ -142,7 +142,7 @@
                         format: 'a4'
                     });
                 doc.addImage(img, 'JPEG', 20, 20);
-                doc.save('bhavdip-html-to-pdf.pdf');
+                doc.save('mypage.pdf');
                 form.width(cache_width);
             });
         }
